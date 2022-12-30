@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Product Coupon</h1>
+<form action="name" method="post">
+<pre>
+Name:<input type="text" name="name">
+Description:<input type="text" name="description">
+Price:<input type="text" name="price">
+Coupon code:<input type="text" name="couponCode"/>
+<input type="submit" value="save">
+
+</pre>
+</form>
+</body>
+</html>
